@@ -11,6 +11,7 @@ const Cart = ({cart}) => {
         total = total + product.price * product.quantity;
         shipping = shipping + product.shipping;
         quantity = quantity + product.quantity;
+        console.log(quantity)
     }
     const tex = parseFloat((total * 0.1).toFixed(2));
     const grntotal = total+shipping+tex;
@@ -18,12 +19,12 @@ const Cart = ({cart}) => {
 
     return (
         <div className='cart'>
-            <h2>Order summary</h2>
-            <h2>silected item: {quantity} </h2>
+            <p>Order summary</p>
+            <p>silected item: {quantity} </p>
             <p>total price: {total} </p>
             <p>total shinng: {shipping} </p>
             <p>tax: {tex} </p>
-            <h3>grant total: {grntotal} </h3>
+            <p>grant total: {grntotal} </p>
         </div>
     );
 };

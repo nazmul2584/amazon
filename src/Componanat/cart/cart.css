@@ -1,6 +1,10 @@
 .cart{
     position: sticky;
     top: 0;
-    padding-top: 25px;
+    padding-top: 80px;
     padding-left: 25px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid salmon;
+    border-radius: 8px;
 }

@@ -11,6 +11,7 @@ const Shop = () => {
         fetch('products.json')
         .then(res=>res.json())
         .then(data=>setproducts(data))
+        console.log(cart)
         
     },[])
 
