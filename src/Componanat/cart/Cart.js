@@ -20,11 +20,11 @@ const Cart = ({cart}) => {
     return (
         <div className='cart'>
             <p>Order summary</p>
-            <p>silected item: {quantity} </p>
-            <p>total price: {total} </p>
-            <p>total shinng: {shipping} </p>
+            <p>Silected item: {quantity} </p>
+            <p> Price: {total} </p>
+            <p>total shipping: {shipping} </p>
             <p>tax: {tex} </p>
-            <p>grant total: {grntotal} </p>
+            <p> total cost: {grntotal} </p>
         </div>
     );
 };
