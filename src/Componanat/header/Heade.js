@@ -6,10 +6,11 @@ const Heade = () => {
         <div className='header'>
          <img src= {logo} alt="" />
         <div>
-        <a href="/home">home</a>
-        <a href="/inventory">inventory</a>
-        <a href="/shop">shop</a>
-        <a href="about">about</a>
+        <a href="/shop">HOME</a>
+        <a href="/inventory">INVENTORY</a>
+        <a href="about">ABOUT</a>
+        <a href="/orders">ORDERS</a>
+
         </div>
         </div>
     );
